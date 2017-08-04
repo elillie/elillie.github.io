@@ -747,7 +747,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/bg19.png");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1074,6 +1074,10 @@
 	#main {
 		position: relative;
 		overflow: hidden;
+	}
+
+	#main a {
+		color: #000;
 	}
 
 	.panel {

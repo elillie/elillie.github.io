@@ -67,6 +67,8 @@
 
 				}
 
+				console.log('didLoad');
+
 				// Body.
 					$body._resize = function() {
 						var factor = ($window.width() * $window.height()) / (1440 * 900);
